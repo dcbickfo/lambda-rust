@@ -1,6 +1,6 @@
 VERSION ?= 0.4.0
-RUST_VERSION ?= 1.45.2
-REPO ?= softprops/lambda-rust
+RUST_VERSION ?= 1.50.0
+REPO ?= dcbickfo/lambda-rust
 TAG ?= "$(REPO):$(VERSION)-rust-$(RUST_VERSION)"
 
 publish: build
