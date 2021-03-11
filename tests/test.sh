@@ -67,7 +67,7 @@ package_all_dev_profile() {
     ls target/lambda/release/output/"${1}"/bootstrap.debug 2>&1
 }
 
-for project in test-func test-multi-func test-func-with-hooks; do
+for project in test-func test-multi-func test-func-with-hooks test-http-func; do
     cd "${HERE}"/"${project}"
     echo "👩‍🔬 Running tests for $project with image $IMAGE"
 
